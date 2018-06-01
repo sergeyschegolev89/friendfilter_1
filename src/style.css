@@ -1,0 +1,193 @@
+body {
+    font-weight: 800;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+input {
+    outline: none;
+    border: none;
+}
+
+.main {
+    width: 620px;
+    margin: 20px auto 0 auto;
+}
+.mainHeader {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #ff8663;
+    position: relative;
+}
+.mainHeaderTitle h3 {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+    padding: 15px;
+}
+
+.mainHeaderSearch {
+     background: #f0f0f0;
+     padding: 10px 16px;
+ }
+.mainHeaderSearch:before,
+.mainHeaderSearch:after {
+    content: "";
+    display: table;
+}
+.mainHeaderSearch:after {
+    clear: both;
+}
+.leftSearch,
+.rightSearch {
+    width: 230px;
+}
+.leftSearch input,
+.rightSearch input {
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px 28px;
+    font-size: 13px;
+    background: #ffffff url("pictures/search-icon.png") 7px center no-repeat;
+}
+.leftSearch {
+    float: left;
+}
+.rightSearch {
+    float: left;
+    margin-left: 70px;
+}
+.mainBody {
+    padding: 0 15px 0 15px;
+    background: #ffffff;
+}
+.mainBody:before,
+.mainBody:after {
+    content: "";
+    display: table;
+}
+.mainBody:after {
+    clear: both;
+}
+.mainLeft,
+.mainRight {
+    width: 280px;
+}
+.mainLeft {
+    float: left;
+    padding-right: 15px;
+    border-right: 1px solid #f0f0f0;
+}
+.mainRight {
+    float: right;
+    padding-left: 5px;
+}
+.leftTitle,
+.rightTitle {
+    font-size: 13px;
+    color: #4f4f4f;
+    padding: 15px 0 3px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.leftList,
+.rightList {
+    height: 320px;
+    overflow-y: scroll;
+}
+.friend {
+    padding: 5px;
+    cursor: pointer;
+}
+.friend:before,
+.friend:after {
+    content: "";
+    display: table;
+}
+.friend:after {
+    clear: both;
+}
+.friend:hover {
+    background: #f0f0f0;
+}
+.friendPhoto {
+    float: left;
+}
+.friendPhoto img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: block;
+}
+.friendName {
+    float: left;
+    color: #4f4f4f;
+    font-size: 12px;
+    margin: 17px 0 0 10px;
+}
+.leftList .friendAction {
+    float: right;
+    background: url("pictures/add.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-top: 16px;
+}
+.rightList .friendAction {
+    float: right;
+    background: url("pictures/remove.png") no-repeat;
+    width: 14px;
+    height: 14px;
+    margin-top: 16px;
+}
+.mainFooter {
+    background: #f0f0f0;
+    padding: 10px 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.mainFooter:before,
+.mainFooter:after {
+    content: "";
+    display: table;
+}
+.mainFooter:after {
+    clear: both;
+}
+.save {
+    color: #ffffff;
+    background: #ff8663;
+    float: right;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 17px;
+}
+.exit {
+    background: url("pictures/remove2.png") no-repeat;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px grey;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #BBB;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
